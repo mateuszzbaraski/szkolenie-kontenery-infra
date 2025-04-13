@@ -27,6 +27,6 @@ Resources:
 
 Outputs:
   ECSCluster:
-    Description: 
+    Description: Name of the cluster
     Value: !Ref ECSCluster
 
