@@ -16,5 +16,6 @@ parameter_overrides = [
   "ClusterName=FargateInfra",
   "VpcId=vpc-0ac9c2be3bca6c417",
   "SubnetIds=subnet-0e2c93a24cb1a9963,subnet-01fca484b79d487c1",
+  "ServiceSecurityGroupId=sg-034be41c41305fa7c",
 ]
 no_fail_on_empty_changeset = true

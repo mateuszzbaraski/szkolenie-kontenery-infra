@@ -13,6 +13,18 @@ Parameters:
     Type: String
     Default: dbadmin
     Description: Username for the database
+  ClusterName:
+    Type: String
+    Description: The name of the ECS cluster
+  VpcId:
+    Type: String
+    Description: The ID of the VPC where the ECS cluster will be created
+  SubnetIds:
+    Type: CommaDelimitedList
+    Description: The IDs of the subnets where the ECS cluster will be created
+  ServiceSecurityGroupId:
+    Type: String
+    Description: Security Group ID for the ECS Service
 
 
 Resources:
@@ -96,7 +108,7 @@ Outputs:
   ECSCluster:
     Description: Name of the cluster
     Value: !Ref ECSCluster
-    
+
   DatabaseEndpoint:
     Description: Endpoint of the Aurora PostgreSQL cluster
     Value: !GetAtt AuroraCluster.Endpoint.Address
