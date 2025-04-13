@@ -15,7 +15,7 @@ Resources:
   ECSCluster:
     Type: AWS::ECS::Cluster
     Properties:
-      ClusterName: FargateSzkolenieCluster
+      ClusterName: FargateInfra
       CapacityProviders:
         - FARGATE
       DefaultCapacityProviderStrategy:
