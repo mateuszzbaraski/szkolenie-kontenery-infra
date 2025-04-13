@@ -30,4 +30,3 @@ Outputs:
   ECSCluster:
     Description: Name of the cluster
     Value: !Ref ECSCluster
-
