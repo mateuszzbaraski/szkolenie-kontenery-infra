@@ -34,6 +34,3 @@ jobs:
 
     - name: Deploy SAM application
       run: sam build && sam deploy --no-fail-on-empty-changeset
-
- 
- 

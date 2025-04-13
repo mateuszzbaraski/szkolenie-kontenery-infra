@@ -29,3 +29,4 @@ Outputs:
   ECSCluster:
     Description: 
     Value: !Ref ECSCluster
+
