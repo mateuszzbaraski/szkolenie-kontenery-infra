@@ -75,7 +75,7 @@ Resources:
     Type: AWS::RDS::DBCluster
     Properties:
       Engine: aurora-postgresql
-      EngineVersion: 14.5
+      EngineVersion: 17.0
       DatabaseName: !Sub "${ProjectName}db"
       MasterUsername: !Ref DatabaseUsername
       MasterUserPassword: !Join ['', ['{{resolve:secretsmanager:', !Ref GeneratedDatabasePassword, ':SecretString:password}}' ]]
