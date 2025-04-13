@@ -10,6 +10,7 @@ Parameters:
     Default: dev
     Description: The environment to deploy to (e.g., dev, prod)
 
+
 Resources:
   ECSCluster:
     Type: AWS::ECS::Cluster
