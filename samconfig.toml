@@ -4,7 +4,7 @@ version = 0.1
 
 [default]
 [default.global.parameters]
-stack_name = "szkolenie-stack2"
+stack_name = "szkolenie-stack-infra"
 
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
